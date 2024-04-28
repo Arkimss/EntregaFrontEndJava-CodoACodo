@@ -1,0 +1,112 @@
+.registerButton {
+    background-color: #6f42c1;
+
+    /* Puedes ajustar otros estilos según tus preferencias */
+
+    color: rgb(255, 255, 255);
+    /* Para asegurarte de que el texto sea legible */
+    padding: 15px;
+
+}
+
+#PantallaPrincipal {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(ImagenPrincipal.jpg);
+    background-size: 1400px 666px;
+    box-shadow: #6f42c1;
+
+}
+
+#cabeceraLogo {
+    background-color: #6f42c1;
+    height: 100px;
+
+}
+
+.iniciarSesion {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.iniciarSesion:hover {
+    background-color: #6f42c1;
+    color: antiquewhite;
+}
+
+.itemNav {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 5px;
+
+}
+
+.tituloPrincipal {
+    font-size: 5rem;
+}
+
+.itemNav:hover {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(88, 52, 156);
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#areaDeBusqueda {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.lineaHorizontal {
+    color: #6f42c1;
+    height: 5px;
+
+    background-color: #6f42c1;
+}
+
+
+.peliculasRecomendadas {
+    padding: 0px 100px;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.peliculas {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.textoAbsoluto {}
+
+.peliculas:hover {
+
+
+    filter: blur(5px);
+
+
+}
+
+.input {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 40px;
+    margin: 0px 25px;
+    width: 400px;
+
+
+}
+
+.buscar {
+    background-color: #6f42c1;
+    border: 2px solid white;
+    font-size: 1.2rem;
+
+
+}
