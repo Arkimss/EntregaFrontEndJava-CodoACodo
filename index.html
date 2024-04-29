@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Peliculas</title>
 </head>
@@ -13,12 +16,14 @@
 <body class="bg-black">
     <!-- ========== Aca va a estar el header Section ========== -->
     <header id="cabeceraLogo" class="position-fixed w-100">
-        <h1 class="text-center">ASA Cinema</h1>
-        <nav id="menuprincipal" class="d-flex justify-content-evenly mb-2 ">
 
-            <a class="itemNav fw-bold">Tendencias</a>
-            <a class="itemNav iniciarSesion  fw-bold">Iniciar sesion</a>
-            <a class="itemNav  fw-bold"> Registrarse</a>
+        <nav id="menuPrincipal" class="">
+            <i class="fa-solid fa-film logo">Yarkims Cinema</i>
+            <ul class="listNav">
+                <li><a class="itemNav fw-bold">Tendencias</a></li>
+                <li><a class="itemNav iniciarSesion  fw-bold">Iniciar sesion</a></li>
+                <li><a class="itemNav  fw-bold"> Registrarse</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -76,8 +81,11 @@
             </div>
             <a href=""></a>
         </div>
-        <div class="justify-content-center">
-            <a href="segundaPaginaConPeliculas.html" class="text-center btn"> Siguiente </a>
+        <div class="d-flex justify-content-center">
+            <a href="" class="text-center  btn btn-primary buttonCambiarPagina"> Anterior
+            </a>
+            <a href="segundaPaginaConPeliculas.html" class="text-center  btn btn-primary buttonCambiarPagina"> Siguiente
+            </a>
         </div>
 
         </div>
