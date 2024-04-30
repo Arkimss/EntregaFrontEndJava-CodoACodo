@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,27 +13,28 @@
     <title>Peliculas</title>
 </head>
 
-<body class="bg-black">
+<body class="bg-dark">
     <!-- ========== Aca va a estar el header Section ========== -->
     <header id="cabeceraLogo" class="position-fixed w-100">
 
         <nav id="menuPrincipal" class="">
-            <i class="fa-solid fa-film logo">Yarkims Cinema</i>
+            <i class="fa-solid fa-film fa-beat logo">Yarkims Cinema</i>
             <ul class="listNav">
                 <li><a class="itemNav fw-bold">Tendencias</a></li>
                 <li><a class="itemNav iniciarSesion  fw-bold">Iniciar sesion</a></li>
-                <li><a class="itemNav  fw-bold"> Registrarse</a></li>
+                <li><a href="htmls\formularioDeRegistro.html" class="itemNav  fw-bold"> Registrarse</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="">
         <div id="PantallaPrincipal" class="bg-dark text-light text-center">
             <H1 class=" mb-5  TItuloPrincipal  ">Películas y series ilimitadas <br>
                 en un solo lugar</H1>
             <h2 class="fs-1"> Disfruta donde quieras. </h2>
             <h2 class="fs-1">Cancela en cualquier momento</h2>
             <!--<button type="button" class="btn registerButton">Registrarse</button> -->
-            <a href="formularioDeRegistro.html" class="btn registerButton fw-bold">Registrate</a>
+            <a href="C:\Users\Acost\OneDrive\Escritorio\Curso-Java-Full-Stack-Codo-a-Codo\Entrega-Front-End\htmls\formularioDeRegistro.html"
+                class="btn registerButton fw-bold">Registrate</a>
         </div>
 
         <!-- ========== Aca va a estar el "buscador de peliculas" ========== -->
@@ -48,7 +49,7 @@
         </div>
 
         <!-- ========== Aca va a estar la lista de peliculas recomendadas d-flex  flex-wrap align-content-center ========== -->
-        <div class=" PeliculasRecomendadas bg-dark d-flex flex-wrap  justify-content-center ">
+        <div class=" peliculasRecomendadas bg-dark d-flex flex-wrap  justify-content-center ">
             <div class="">
                 <img src="./ImagenesDePeliculas/Open jaime.jpeg" class=" Peliculas " alt="Openheimmer" />
                 <p class="text-light textoAbsoluto text-center">Openheimmer</p>
@@ -80,18 +81,13 @@
                 <img src="./ImagenesDePeliculas/qJ2tW6WMUDux911r6m7haRef0WH.jpg" class=" Peliculas" alt="Batman" />
             </div>
 
-
-            <div class="d-flex justify-content-center mt-5 mb-5">
-                <a href="" class="text-center  btn btn-primary buttonCambiarPagina"> Anterior
-                </a>
-                <a href="segundaPaginaConPeliculas.html" class="text-center  btn btn-primary buttonCambiarPagina">
-                    Siguiente
-                </a>
-            </div>
-
-
-
-
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5 bg-dark">
+            <a href="" class="text-center  btn btn-primary buttonCambiarPagina"> Anterior
+            </a>
+            <a href="htmls\segundaPaginaConPeliculas.html" class="text-center  btn btn-primary buttonCambiarPagina">
+                Siguiente
+            </a>
         </div>
         <hr class="LineaHorizontal">
         <h1 class="text-center mt-5  text-light">Las más aclamadas</h1>
@@ -133,12 +129,20 @@
             </div>
         </div>
 
+        <div class="d-flex justify-content-center position-fixed bg-light">
 
+        </div>
 
 
     </main>
-
-    <footer></footer>
+    <footer class="d-flex justify-content-center ">
+        <ul class="listFooter d-flex justify-content-evenly align-items-center">
+            <li><a href="" class="itemFooter fw-bold">Terminos y Condiciones</a></li>
+            <li><a href="" class="itemFooter fw-bold">Preguntas Frecuentes</a></li>
+            <li><a href="" class="itemFooter fw-bold">Ayuda</a></li>
+            <li><a href="" class="itemFooter  fw-bold">Administrador de peliculas</a></li>
+        </ul>
+    </footer>
 
 </body>
 

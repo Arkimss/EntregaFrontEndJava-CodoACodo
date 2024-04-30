@@ -9,6 +9,13 @@
 
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+main {}
+
 #PantallaPrincipal {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -64,7 +71,6 @@
 }
 
 .lineaHorizontal {
-
     justify-content: center;
     border: 2px solid;
     border-color: #6f42c1;
@@ -95,11 +101,7 @@
 
 
 .peliculas:hover {
-
-
     filter: blur(5px);
-
-
 }
 
 .input {
@@ -149,7 +151,6 @@
 }*/
 
 .Las-Mas-Aclamadas {
-    height: 200px;
     width: 80%;
     margin-left: 100px;
     padding-top: 100px;
@@ -159,10 +160,9 @@
 
 .containerPeliculas {
     width: 55%;
-    height: 250px;
+    margin-bottom: 50px;
     background-color: #0000;
     overflow-x: scroll;
-    white-space: nowrap;
 }
 
 .peliculasSmall {
@@ -174,7 +174,8 @@
 }
 
 .peliculasSmall:hover {
-    display: block;
+    border: 2px solid;
+    border-color: beige;
 }
 
 /*.containerPeliculas {
@@ -185,21 +186,43 @@
 }
 */
 ::-webkit-scrollbar {
-    width: 5px;
-    color: white;
     background: #6f42c1;
-
 }
-
 
 ::-webkit-scrollbar-thumb {
     background: #6f42c1;
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(23, 23, 23);
+    background: rgb(0, 0, 0);
 }
 
+footer {
+    background-color: #6f42c1;
+    height: 100px;
+    width: 100%;
+
+}
+
+.listFooter {
+    list-style: none;
+
+}
+
+.itemFooter {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+.itemFooter:hover {
+    color: black;
+}
+
+.boton-desplazar {
+    width: 40px;
+    height: 40px;
+}
 
 @media (min-width: 768px) {
     #menuPrincipal {
