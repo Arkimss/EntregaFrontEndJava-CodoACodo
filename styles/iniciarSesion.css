@@ -1,0 +1,40 @@
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    body {
+        height: 100vh;
+        background-image: url(/ImagenesVarias/fotoPrincipal.jpg);
+
+    }
+
+    #cabeceraLogo {
+        background-color: #6f42c1;
+
+    }
+
+    .input {
+        border-radius: 999px;
+        border: solid 2px #6f42c1;
+    }
+
+    .container {
+
+        margin-top: 25vh;
+    }
+
+    .submit {
+        background-color: #6f42c1;
+        border: solid 2px #6f42c1;
+        margin-top: 20px;
+    }
+
+    .linkHome {
+        color: #6f42c1;
+        text-decoration: none;
+    }
+
+    .linkHome :hover {
+        color: #6f42c1;
+    }

@@ -12,14 +12,13 @@
 body {
     overflow-x: hidden;
     overflow-y: scroll;
-}
 
-main {}
+}
 
 #PantallaPrincipal {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url(ImagenPrincipal.jpg);
+    background-image: url(/ImagenesVarias/ImagenPrincipal.jpg);
     background-size: cover;
     box-shadow: #6f42c1;
 
@@ -31,7 +30,7 @@ main {}
 
 }
 
-.iniciarSesion {
+.buttonEspecial {
     background-color: black;
     border-radius: 5px;
 }
@@ -174,9 +173,12 @@ main {}
 }
 
 .peliculasSmall:hover {
+    transform: scale(1.05);
     border: 2px solid;
     border-color: beige;
 }
+
+
 
 /*.containerPeliculas {
     width: 50%;

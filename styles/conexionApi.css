@@ -1,0 +1,79 @@
+.peliculasRecomendadas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card {
+    width: 20vw;
+    margin-left: 20px;
+    background-color: #1b070711;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.h1T :hover {
+    color: aqua;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #6f42c1;
+    height: 100px;
+    width: 100%;
+
+}
+
+.listFooter {
+    list-style: none;
+
+}
+
+.itemFooter {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+.itemFooter:hover {
+    color: black;
+}
+
+::-webkit-scrollbar {
+    background: #6f42c1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6f42c1;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
