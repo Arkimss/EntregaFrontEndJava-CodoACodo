@@ -92,6 +92,10 @@ body {
 
 }
 
+.peliculas:hover {
+    transform: scale(1.05);
+}
+
 .buttonCambiarPagina {
     margin-right: 20px;
     border: 1px solid;
@@ -173,7 +177,7 @@ body {
 }
 
 .peliculasSmall:hover {
-    transform: scale(1.05);
+
     border: 2px solid;
     border-color: beige;
 }
